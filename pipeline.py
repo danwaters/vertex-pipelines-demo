@@ -4,9 +4,9 @@ from kfp.v2.google.client import AIPlatformClient
 from google.cloud import aiplatform
 from google_cloud_pipeline_components import aiplatform as gcc_aip
 
-project_id = 'dw-vertex-pipelines'
+project_id = 'dw-vertex-ops'
 region = 'us-central1'
-pipeline_root_path = 'gs://dw-vertex-pipelines'
+pipeline_root_path = 'gs://dw-vertex-ops-artifacts'
 
 @kfp.dsl.pipeline(
     name="automl-image-training-v2",
