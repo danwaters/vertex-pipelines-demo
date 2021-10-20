@@ -5,7 +5,7 @@ from google.cloud import aiplatform
 from google_cloud_pipeline_components import aiplatform as gcc_aip
 
 project_id = 'dw-vertex-pipelines'
-region = 'us-central-1'
+region = 'us-central1'
 pipeline_root_path = 'gs://dw-vertex-pipelines'
 
 @kfp.dsl.pipeline(
